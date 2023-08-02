@@ -1,6 +1,39 @@
 mode := dev
 container := container
 environment = frontend
+message = First commit
+data = data
+repo = workspace
+
+search-strings:
+	grep -Hrn '${search}' ${path}
+
+replace:
+	grep -rl '${replace}' ${path} | xargs sed -i 's/${replace}/${replacement}/g'
+
+search:
+	find ${path} -name '${search}' -not -path '*/node_modules/*'
+
+git-init:
+	git init
+	git remote add origin git:@github.com:astrohelm/${repo}
+	git branch -M main
+	git commit -am ${message}
+	git push origin main
+
+git-commit:
+	git commit -am ${message}
+
+git-pull:
+	git commit -am ${message}
+	git pull origin main
+
+git-push:
+	git commit -am ${message}
+	git push origin main
+
+git-log:
+	git log --graph --oneline --decorate
 
 cert:
 	@echo "Creating certificates"
