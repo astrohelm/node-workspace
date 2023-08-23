@@ -21,6 +21,7 @@
 - Stable release version
 - Repository created
 
-[unreleased]: https://github.com/astrohelm/workspace/compare/release...HEAD
-[1.1.0]: https://github.com/astrohelm/workspace/releases/tag/v1.1.0
+[unreleased]: https://github.com/astrohelm/workspace/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/astrohelm/workspace/compare/v1.1.0...v1.1.1
+[1.1.0]: https://github.com/astrohelm/workspace/compare/release...v1.1.0
 [1.0.0]: https://github.com/astrohelm/workspace/releases/tag/release
