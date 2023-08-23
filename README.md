@@ -136,7 +136,7 @@ Return to your organization repository and do:
 
 - Add keywords
 - Update description
-- Draft release with `release` tag and `v0.0.1` as a title and updated README file as description.
+- Draft release with `v0.0.1` tag and `v0.0.1` as a title and updated README file as description.
 
 > If you creating library you may publish it now to npm with `npm publish` command.
 
