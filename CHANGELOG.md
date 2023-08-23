@@ -2,6 +2,11 @@
 
 ## [Unreleased][unreleased]
 
+## [1.1.1][] - 2023-08-23
+
+- Astrohelm config update
+- Packages update
+
 ## [1.1.0][] - 2023-08-02
 
 - Prettier row length 120 -> 100
