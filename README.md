@@ -5,6 +5,7 @@
 ### First step: workspace installation
 
 Use next commands to install and update your workspace
+Or use this repository as a template repository.
 
 ```bash
   # Download repository
@@ -93,6 +94,22 @@ Update AUTHORS
 your-name <your-mail>
 ```
 
+### Almost last step: Update README.md
+
+```md
+<h1 align="center">Your-package-name v0.0.1</h1>
+
+<h2 align="center">Initial release 🚀</h2>
+
+<h2 align="center">Copyright & contributors</h2>
+
+<p align="center">
+Copyright © 2023 <a href="https://github.com/astrohelm/Your-package-name/graphs/contributors">Astrohelm contributors</a>.
+Workspace is <a href="./LICENSE">MIT licensed</a>.<br/>
+Workspace is part of <a href="https://github.com/astrohelm">Astrohelm ecosystem</a>.
+</p>
+```
+
 ### Last step: Save results
 
 _WARNING !_ Update this file before moving throw this step.
@@ -104,21 +121,23 @@ Use next commands to save you package.
 git init
 git remote add origin your-package-location
 git branch -M main # if your default branch is not main
-git add .
-git commit -m "Repository init"
+git commit -am "Repository init"
+git tag v0.0.1
 git push origin main
+git push origin v0.0.1
+git checkout -b dev
+git push origin dev
 ```
 
 Return to your organization repository and do:
 
 - Add keywords
 - Update description
-- Draft release with `release` tag and `v1.0.0` as a title and this file as description.
+- Draft release with `release` tag and `v0.0.1` as a title and updated README file as description.
 
 > If you creating library you may publish it now to npm with `npm publish` command.
 
 Congratulations, package initialized 🚀
-
 
 ## About files & structure
 
@@ -136,7 +155,7 @@ This workspace have commonjs in use by default. You can switch it in package.jso
 <h2 align="center">Copyright & contributors</h2>
 
 <p align="center">
-Copyright © 2023 <a href="https://github.com/LeadFisherSolutions/workspace-example/graphs/contributors">Leadfisher contributors</a>.
+Copyright © 2023 <a href="https://github.com/astrohelm/workspace/graphs/contributors">Astrohelm contributors</a>.
 Workspace is <a href="./LICENSE">MIT licensed</a>.<br/>
-Workspace is part of <a href="https://github.com/astrohelm">astrohelm ecosystem</a>.
+Workspace is part of <a href="https://github.com/astrohelm">Astrohelm ecosystem</a>.
 </p>
