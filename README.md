@@ -71,6 +71,7 @@ If your nodejs version newer than package.json current add <code>|| your-node-ve
 ### Third step: About files
 
 Go to CHANGELOG.md and update it for your package.
+_WARNING !_ Don't fotget about date (xxxx-xx-xx).
 
 ```md
 <!-- CHANGELOG.md -->
@@ -95,6 +96,8 @@ your-name <your-mail>
 ```
 
 ### Almost last step: Update README.md
+
+Replace your README.md with next information and change Your-package-name to actual.
 
 ```md
 <h1 align="center">Your-package-name v0.0.1</h1>
