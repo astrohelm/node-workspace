@@ -5,7 +5,7 @@
 ### First step: workspace installation
 
 Use next commands to install and update your workspace
-Or use this repository as a template repository.
+Or use this repository as a template repository, if so - you can skip this step.
 
 ```bash
   # Download repository
@@ -84,8 +84,8 @@ _WARNING !_ Don't fotget about date (xxxx-xx-xx).
 - Stable release version
 - Repository created
 
-[unreleased]: https://github.com/astrohelm/your-package-name/compare/release...HEAD
-[0.0.1]: https://github.com/astrohelm/your-package-name/releases/tag/release
+[unreleased]: https://github.com/astrohelm/your-package-name/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/astrohelm/your-package-name/releases/tag/v0.0.1
 ```
 
 Update AUTHORS
@@ -100,6 +100,7 @@ your-name <your-mail>
 Replace your README.md with next information and change Your-package-name to actual.
 
 ```md
+<!-- README.md -->
 <h1 align="center">Your-package-name v0.0.1</h1>
 
 <h2 align="center">Initial release 🚀</h2>
@@ -123,6 +124,7 @@ Use next commands to save you package.
 ```bash
 git init
 git remote add origin your-package-location
+# Start from here, if you used template
 git branch -M main # if your default branch is not main
 git commit -am "Repository init"
 git tag v0.0.1
