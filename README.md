@@ -108,8 +108,8 @@ Replace your README.md with next information and change Your-package-name to act
 
 <p align="center">
 Copyright © 2023 <a href="https://github.com/astrohelm/Your-package-name/graphs/contributors">Astrohelm contributors</a>.
-Workspace is <a href="./LICENSE">MIT licensed</a>.<br/>
-Workspace is part of <a href="https://github.com/astrohelm">Astrohelm ecosystem</a>.
+Your-package-name is <a href="./LICENSE">MIT licensed</a>.<br/>
+Your-package-name is part of <a href="https://github.com/astrohelm">Astrohelm ecosystem</a>.
 </p>
 ```
 
