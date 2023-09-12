@@ -5,7 +5,7 @@
 ### First step: workspace installation
 
 Use next commands to install and update your workspace Or use this repository as a template
-repository.
+repository, if so - you can skip this step.
 
 ```bash
   # Download repository
@@ -84,8 +84,8 @@ Go to CHANGELOG.md and update it for your package. _WARNING !_ Don't fotget abou
 - Stable release version
 - Repository created
 
-[unreleased]: https://github.com/astrohelm/your-package-name/compare/release...HEAD
-[0.0.1]: https://github.com/astrohelm/your-package-name/releases/tag/release
+[unreleased]: https://github.com/astrohelm/your-package-name/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/astrohelm/your-package-name/releases/tag/v0.0.1
 ```
 
 Update AUTHORS
@@ -101,6 +101,7 @@ your-name <your-mail>
 Replace your README.md with next information and change Your-package-name to actual.
 
 ```md
+<!-- README.md -->
 <h1 align="center">Your-package-name v0.0.1</h1>
 
 <h2 align="center">Initial release 🚀</h2>
@@ -109,8 +110,8 @@ Replace your README.md with next information and change Your-package-name to act
 
 <p align="center">
 Copyright © 2023 <a href="https://github.com/astrohelm/Your-package-name/graphs/contributors">Astrohelm contributors</a>.
-Workspace is <a href="./LICENSE">MIT licensed</a>.<br/>
-Workspace is part of <a href="https://github.com/astrohelm">Astrohelm ecosystem</a>.
+Your-package-name is <a href="./LICENSE">MIT licensed</a>.<br/>
+Your-package-name is part of <a href="https://github.com/astrohelm">Astrohelm ecosystem</a>.
 </p>
 ```
 
@@ -124,6 +125,7 @@ to save you package.
 ```bash
 git init
 git remote add origin your-package-location
+# Start from here, if you used template
 git branch -M main # if your default branch is not main
 git commit -am "Repository init"
 git tag v0.0.1
@@ -137,7 +139,7 @@ Return to your organization repository and do:
 
 - Add keywords
 - Update description
-- Draft release with `release` tag and `v0.0.1` as a title and updated README file as description.
+- Draft release with `v0.0.1` tag and `v0.0.1` as a title and updated README file as description.
 
 > If you creating library you may publish it now to npm with `npm publish` command.
 
