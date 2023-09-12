@@ -4,14 +4,14 @@
 
 ### First step: workspace installation
 
-Use next commands to install and update your workspace
-Or use this repository as a template repository.
+Use next commands to install and update your workspace Or use this repository as a template
+repository.
 
 ```bash
   # Download repository
-  git clone https://github.com/astrohelm/workspace
-  rm -rf ./workspace/.git ./workspace/package-lock.json
-  cd ./workspace
+  git clone https://github.com/astrohelm/node-workspace
+  rm -rf ./path/to/workspace/.git ./path/to/workspace/package-lock.json
+  cd ./path/to/workspace/
   # Update and install dependencies
   ncu -u
   npm i
@@ -22,8 +22,8 @@ Or use this repository as a template repository.
 
 ### Second step: Package personalization
 
-Update package json, all with prefix <code>your-</code><br/>
-If your nodejs version newer than package.json current add <code>|| your-node-version</code>.
+Update package json, all with prefix <code>your-</code><br/> If your nodejs version newer than
+package.json current add <code>|| your-node-version</code>.
 
 ```js
 // package.json
@@ -70,11 +70,11 @@ If your nodejs version newer than package.json current add <code>|| your-node-ve
 
 ### Third step: About files
 
-Go to CHANGELOG.md and update it for your package.
-_WARNING !_ Don't fotget about date (xxxx-xx-xx).
+Go to CHANGELOG.md and update it for your package. _WARNING !_ Don't fotget about date (xxxx-xx-xx).
 
 ```md
 <!-- CHANGELOG.md -->
+
 # Changelog
 
 ## [Unreleased][unreleased]
@@ -92,6 +92,7 @@ Update AUTHORS
 
 ```md
  <!-- AUTHORS -->
+
 your-name <your-mail>
 ```
 
@@ -117,8 +118,8 @@ Workspace is part of <a href="https://github.com/astrohelm">Astrohelm ecosystem<
 
 _WARNING !_ Update this file before moving throw this step.
 
-Create a new package in [organization][https://github.com/astrohelm/] repository.
-Use next commands to save you package.
+Create a new package in [organization][https://github.com/astrohelm/] repository. Use next commands
+to save you package.
 
 ```bash
 git init
@@ -146,19 +147,21 @@ Congratulations, package initialized 🚀
 
 This workspace have commonjs in use by default. You can switch it in package.json if you want.
 
-- `dist` directory used for fronted package analog. You can use it if your package is multi-platform based.
+- `dist` directory used for fronted package analog. You can use it if your package is multi-platform
+  based.
 - `eslint` astrohelm eslint rules
 - `types` .d.ts library types exports
 - `CHANGELOG.md` in use for project history documentation
 - `Makefile` ultimate commands shortcuts creator
 - `tests` here you can put all test coverage of your package
 - `.github` github ci pipeline by default
-- `lib` folder should contain all you library logic, _WARNING !_ Remove if you not writing library. Replace with src folder.
+- `lib` folder should contain all you library logic, _WARNING !_ Remove if you not writing library.
+  Replace with src folder.
 
 <h2 align="center">Copyright & contributors</h2>
 
 <p align="center">
-Copyright © 2023 <a href="https://github.com/astrohelm/workspace/graphs/contributors">Astrohelm contributors</a>.
-Workspace is <a href="./LICENSE">MIT licensed</a>.<br/>
-Workspace is part of <a href="https://github.com/astrohelm">Astrohelm ecosystem</a>.
+Copyright © 2023 <a href="https://github.com/astrohelm/node-workspace/graphs/contributors">Astrohelm contributors</a>.
+This workspace is <a href="./LICENSE">MIT licensed</a>.<br/>
+And it is part of <a href="https://github.com/astrohelm">Astrohelm ecosystem</a>.
 </p>
