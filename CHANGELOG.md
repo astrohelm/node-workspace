@@ -2,6 +2,11 @@
 
 ## [Unreleased][unreleased]
 
+## [1.3.0][] - 2023-11-26
+
+- Packages update
+- Support latest:21 nodejs version
+
 ## [1.2.0][] - 2023-09-12
 
 - Renamed from workspace -> node-workspace
