@@ -149,16 +149,16 @@ Congratulations, package initialized 🚀
 
 This workspace have commonjs in use by default. You can switch it in package.json if you want.
 
-- `dist` directory used for fronted package analog. You can use it if your package is multi-platform
-  based.
+- `dist` directory used for fronted package analog. You can use it if your package is
+  multi-platform, [readme](./dist/README.md).
 - `eslint` astrohelm eslint rules
 - `types` .d.ts library types exports
 - `CHANGELOG.md` in use for project history documentation
 - `Makefile` ultimate commands shortcuts creator
 - `tests` here you can put all test coverage of your package
 - `.github` github ci pipeline by default
-- `lib` folder should contain all you library logic, _WARNING !_ Remove if you not writing library.
-  Replace with src folder.
+- `lib` folder should contain all you library logic,**_WARNING !_** Remove if you not writing
+  library. Replace with **src** folder.
 
 <h2 align="center">Copyright & contributors</h2>
 
