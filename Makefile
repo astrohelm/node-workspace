@@ -5,6 +5,9 @@ message = First commit
 data = data
 repo = workspace
 
+actions:
+  act -q
+
 search-strings:
 	grep -Hrn '${search}' ${path}
 

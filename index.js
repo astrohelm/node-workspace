@@ -2,4 +2,4 @@
 
 const lib = require('./lib');
 
-module.exports = { lib };
+module.exports.default = module.exports = lib;

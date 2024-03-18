@@ -2,6 +2,14 @@
 
 ## [Unreleased][unreleased]
 
+## [1.4.0][] - 2024-03-18
+
+- Packages update
+- Makefile actions runner
+- Default export hack for ESM support
+- Removed support of Nodejs v19
+- Documentation for ./dist folder
+
 ## [1.3.0][] - 2023-11-26
 
 - Packages update
@@ -30,8 +38,10 @@
 - Stable release version
 - Repository created
 
-[unreleased]: https://github.com/astrohelm/workspace/compare/v1.2.0...HEAD
-[1.1.1]: https://github.com/astrohelm/workspace/compare/v1.1.1...v1.2.0
+[unreleased]: https://github.com/astrohelm/workspace/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/astrohelm/workspace/compare/v1.3.0...v1.4.0
+[1.3.0]: https://github.com/astrohelm/workspace/compare/v1.2.0...v1.3.0
+[1.2.0]: https://github.com/astrohelm/workspace/compare/v1.1.1...v1.2.0
 [1.1.1]: https://github.com/astrohelm/workspace/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/astrohelm/workspace/compare/release...v1.1.0
 [1.0.0]: https://github.com/astrohelm/workspace/releases/tag/release
