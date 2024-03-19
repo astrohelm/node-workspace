@@ -2,6 +2,13 @@
 
 ## [Unreleased][unreleased]
 
+## [1.5.0][] - 2024-03-19
+
+- Packages update
+- Eslint bug fix
+- Pull request template update
+- README update
+
 ## [1.4.0][] - 2024-03-18
 
 - Packages update
