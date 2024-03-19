@@ -4,8 +4,7 @@
 
 ### First step: workspace installation
 
-Use next commands to install and update your workspace Or use this repository as a template
-repository, if so - you can skip this step.
+You can use this repository as template - otherwise install it manually:
 
 ```bash
   # Download repository
@@ -15,15 +14,18 @@ repository, if so - you can skip this step.
   # Update and install dependencies
   ncu -u
   npm i
-  # Update node.js (optional()
+  # Update node.js (optional)
   nvm install latest
   nvm use latest
 ```
 
 ### Second step: Package personalization
 
-Update package json, all with prefix <code>your-</code><br/> If your nodejs version newer than
-package.json current add <code>|| your-node-version</code>.
+Update package json:
+
+- Replace all fields with prefix <code>your-</code>
+- Update engines, if current is out of date
+- Remove browser field & dist folder, if you don't support it
 
 ```js
 // package.json
@@ -70,7 +72,7 @@ package.json current add <code>|| your-node-version</code>.
 
 ### Third step: About files
 
-Go to CHANGELOG.md and update it for your package. _WARNING !_ Don't fotget about date (xxxx-xx-xx).
+Go to CHANGELOG.md and update it for your package. _WARNING !_ Don't forget about date (xxxx-xx-xx).
 
 ```md
 <!-- CHANGELOG.md -->
@@ -110,8 +112,8 @@ Replace your README.md with next information and change Your-package-name to act
 
 <p align="center">
 Copyright © 2023 <a href="https://github.com/astrohelm/Your-package-name/graphs/contributors">Astrohelm contributors</a>.
-Your-package-name is <a href="./LICENSE">MIT licensed</a>.<br/>
-Your-package-name is part of <a href="https://github.com/astrohelm">Astrohelm ecosystem</a>.
+This repository is <a href="./LICENSE">MIT licensed</a>.<br/>
+And it is part of <a href="https://github.com/astrohelm">Astrohelm ecosystem</a>.
 </p>
 ```
 
@@ -141,7 +143,7 @@ Return to your organization repository and do:
 - Update description
 - Draft release with `v0.0.1` tag and `v0.0.1` as a title and updated README file as description.
 
-> If you creating library you may publish it now to npm with `npm publish` command.
+> If you want to create library you could publish it to npm with `npm publish` command.
 
 Congratulations, package initialized 🚀
 
