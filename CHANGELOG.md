@@ -2,6 +2,12 @@
 
 ## [Unreleased][unreleased]
 
+# [1.5.1][] - 2024-05-05
+
+- Packages update
+- Changelog url fix
+- CI Update
+
 ## [1.5.0][] - 2024-03-19
 
 - Packages update
@@ -45,10 +51,12 @@
 - Stable release version
 - Repository created
 
-[unreleased]: https://github.com/astrohelm/workspace/compare/v1.4.0...HEAD
-[1.4.0]: https://github.com/astrohelm/workspace/compare/v1.3.0...v1.4.0
-[1.3.0]: https://github.com/astrohelm/workspace/compare/v1.2.0...v1.3.0
-[1.2.0]: https://github.com/astrohelm/workspace/compare/v1.1.1...v1.2.0
-[1.1.1]: https://github.com/astrohelm/workspace/compare/v1.1.0...v1.1.1
-[1.1.0]: https://github.com/astrohelm/workspace/compare/release...v1.1.0
-[1.0.0]: https://github.com/astrohelm/workspace/releases/tag/release
+[unreleased]: https://github.com/astrohelm/node-workspace/compare/v1.5.0...HEAD
+[1.5.1]: https://github.com/astrohelm/node-workspace/compare/v1.5.0...v1.5.1
+[1.5.0]: https://github.com/astrohelm/node-workspace/compare/v1.4.0...v1.5.0
+[1.4.0]: https://github.com/astrohelm/node-workspace/compare/v1.3.0...v1.4.0
+[1.3.0]: https://github.com/astrohelm/node-workspace/compare/v1.2.0...v1.3.0
+[1.2.0]: https://github.com/astrohelm/node-workspace/compare/v1.1.1...v1.2.0
+[1.1.1]: https://github.com/astrohelm/node-workspace/compare/v1.1.0...v1.1.1
+[1.1.0]: https://github.com/astrohelm/node-workspace/compare/release...v1.1.0
+[1.0.0]: https://github.com/astrohelm/node-workspace/releases/tag/release
