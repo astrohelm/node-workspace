@@ -43,7 +43,7 @@ Update package json:
   "types": "types/index.d.ts",
   "packageManager": "npm@9.6.4",
   "readmeFilename": "README.md",
-  "engines": { "node": "18 || 19 || 20" },
+  "engines": { "node": ">= 18" },
   "browser": {},
   "files": ["/dist", "/lib", "/types"],
 

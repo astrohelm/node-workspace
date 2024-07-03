@@ -2,6 +2,10 @@
 
 ## [Unreleased][unreleased]
 
+# [1.5.2][] - 2024-07-03
+
+- Packages update
+
 # [1.5.1][] - 2024-05-05
 
 - Packages update
