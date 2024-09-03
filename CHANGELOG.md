@@ -2,6 +2,12 @@
 
 ## [Unreleased][unreleased]
 
+# [1.6.0][] - 2024-09-03
+
+- Update eslint to 9.x
+- Remove default Makefile
+- Packages update
+
 # [1.5.2][] - 2024-07-03
 
 - Packages update
@@ -56,7 +62,8 @@
 - Stable release version
 - Repository created
 
-[unreleased]: https://github.com/astrohelm/node-workspace/compare/v1.5.0...HEAD
+[unreleased]: https://github.com/astrohelm/node-workspace/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/astrohelm/node-workspace/compare/v1.5.0...v1.6.0
 [1.5.2]: https://github.com/astrohelm/node-workspace/compare/v1.5.0...v1.5.2
 [1.5.1]: https://github.com/astrohelm/node-workspace/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/astrohelm/node-workspace/compare/v1.4.0...v1.5.0

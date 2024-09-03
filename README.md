@@ -11,12 +11,12 @@ You can use this repository as template - otherwise install it manually:
   git clone https://github.com/astrohelm/node-workspace
   rm -rf ./path/to/workspace/.git ./path/to/workspace/package-lock.json
   cd ./path/to/workspace/
-  # Update and install dependencies
-  ncu -u
-  npm i
   # Update node.js (optional)
   nvm install latest
   nvm use latest
+  # Update and install dependencies
+  ncu -u
+  npm i
 ```
 
 ### Second step: Package personalization
@@ -62,7 +62,6 @@ Update package json:
     "eslint": "^8.40.0",
     "eslint-config-astrohelm": "^1.0.0",
     "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.8",
     "typescript": "^5.0.2"
