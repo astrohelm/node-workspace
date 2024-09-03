@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "version": "1.5.2",
+  "version": "1.6.0",
   "type": "commonjs",
   "name": "astrohelm-workspace",
   "homepage": "https://astrohelm.ru",
@@ -43,13 +43,12 @@
   },
 
   "devDependencies": {
-    "@types/node": "^20.14.9",
-    "eslint": "^8.55.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-config-astrohelm": "^1.5.0",
+    "@types/node": "^22.5.2",
+    "eslint": "^9.9.1",
+    "eslint-config-astrohelm": "^2.1.1",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.1.3",
-    "prettier": "^3.3.2",
-    "typescript": "^5.5.3"
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
   }
 }
